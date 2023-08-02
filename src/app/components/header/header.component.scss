@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: solid;
+  }
+}
+
+img {
+  object-fit: contain;
+}
+
+.links-urls {
+  display: flex;
+  gap: 2rem;
+}
+
+button {
+  display: block;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+}
