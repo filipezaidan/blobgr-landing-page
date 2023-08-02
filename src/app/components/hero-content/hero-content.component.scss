@@ -1,0 +1,44 @@
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 8rem;
+  width: 100%;
+  height: min(500px, auto);
+  background: url("../../../assets/images/bg-pattern-intro-desktop.svg"),
+    linear-gradient(to right, #ff8c71, #ff485a, #ff485a);
+  border-radius: 0% 0% 0% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+span {
+  font-size: 1.3srem;
+  font-weight: 200;
+  color: white;
+}
+
+.hero-content {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 5% 0%;
+}
+
+.hero-footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
