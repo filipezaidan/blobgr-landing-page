@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HeroContentComponent } from './components/hero-content/hero-content.component';
 import { ButtonComponent } from './components/button/button.component';
+import { DesignedContentComponent } from './components/designed-content/designed-content.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ButtonComponent } from './components/button/button.component';
     HeaderComponent,
     HeroContentComponent,
     ButtonComponent,
+    DesignedContentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
